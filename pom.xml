@@ -4,14 +4,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.esed.easybridge.webservice.client</groupId>
 	<artifactId>com.esed.easybridge.webservice.client</artifactId>
-	<version>1.0</version>
+	<version>1.1.0</version>
 	<name>com.esed.easybridge.webservice.client</name>
 	<description>com.esed.easybridge.webservice.client</description>
 
    <parent>
       <groupId>it.maggioli.informatica.base.pom</groupId>
       <artifactId>pagonet-base</artifactId>
-      <version>1.1</version>
+      <version>1.2.0</version>
       <relativePath/>
    </parent>
 
@@ -38,8 +38,7 @@
 		<dependency>
 			<groupId>javax.xml</groupId>
 			<artifactId>jaxrpc-api</artifactId>
-			<version>1.1</version>
-			<scope>compile</scope>
+			
 		</dependency>
 
 
@@ -47,8 +46,7 @@
 		<dependency>
 			<groupId>org.apache.axis</groupId>
 			<artifactId>axis</artifactId>
-			<version>1.4</version>
-			<scope>compile</scope>
+			
 		</dependency>
 
 
@@ -58,8 +56,7 @@
 		<dependency>
 			<groupId>commons-codec</groupId>
 			<artifactId>commons-codec</artifactId>
-			<version>1.8</version>
-			<scope>compile</scope>
+			
 		</dependency>
 
 	</dependencies>
